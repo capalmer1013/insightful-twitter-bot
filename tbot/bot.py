@@ -28,7 +28,8 @@ class Bot(object):
         outStr = ""
         nextState = start
         while nextState != end:
-            selection = []
+            selection = self.listOfOccurances(nextState)
+            nextState = random.choice(selection)
         pass
 
     def getKnowledgeGraph(self):
@@ -36,3 +37,9 @@ class Bot(object):
 
     def loadKnowledgeGraph(self, knowledgeDict):
         pass
+
+    def listOfOccurances(self, index):
+        value = []
+        for each in self.graph[index]:
+            value.extend([each]*self.graph[index][each])
+        return value
