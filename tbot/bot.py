@@ -41,7 +41,7 @@ class Bot(object):
             selection = self.listOfOccurances(nextState)
             nextState = random.choice(selection)
             if nextState != end:
-                outStr += nextState + " "
+                    outStr += nextState + " "
 
         return outStr
 
