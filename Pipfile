@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 selenium = "*"
 xvfbwrapper = "*"
+requests = "*"
+python-firebase = "*"
 
 [dev-packages]
 
