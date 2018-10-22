@@ -1,6 +1,12 @@
 # insightful-twitter-bot
 A twitter bot that provides daily insight
 
+## Generating a tweet
+```bash
+./run_bot.sh
+```
+
+
 ## Tweet scraping
 
 ### MacOS

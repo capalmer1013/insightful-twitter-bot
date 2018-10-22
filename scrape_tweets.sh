@@ -1,1 +1,2 @@
-pipenv run python tbot/tweet_scraper.py
+cd tbot
+pipenv run python tweet_scraper.py
